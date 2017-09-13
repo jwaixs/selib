@@ -16,7 +16,6 @@ string cpp_rot13(string input) {
 				output.append(1, input[i] - 13);
 			}
 		} else {
-			cout << i << " " << input[i] << endl;
 			output.append(1, input[i]);
 		}
 	}
